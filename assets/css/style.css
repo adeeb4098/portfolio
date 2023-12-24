@@ -195,19 +195,13 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: rgb(122, 112, 112);
-  box-shadow: none;
+  background-color: #000000;
   height: 0;
+  color: #4e4848;
 }
 
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
-
 nav i {
-  padding: 0 15px;
+  padding: 0 18px;
   position: relative;
   top: 5px;
 }
@@ -220,8 +214,10 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background-color:  url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
+
+  
 }
 
 dl {
@@ -241,6 +237,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background-color: #0a0a0a;
 }
 
 ul.side-nav li {
@@ -257,7 +254,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: rgb(0, 0, 0);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -277,7 +274,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #111010;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -290,12 +287,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: rgb(11, 11, 11);
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #aca6a6 !important;
 }
 
 li.logo span {
@@ -330,6 +327,11 @@ h3 {
 
 .full-height {
   height: 100vh;
+}
+
+.hide-on-large{
+  color: #000000;
+  background-color: #000000;
 }
 
 /* Original */
@@ -448,7 +450,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #171616;
 }
 
 .card ul {
@@ -462,7 +464,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #666;
+  color: #1b1919;
   font-size: 13px;
 }
 
