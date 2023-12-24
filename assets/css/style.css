@@ -195,7 +195,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: rgb(0, 0, 0);
+  background: rgb(122, 112, 112);
   box-shadow: none;
   height: 0;
 }
@@ -579,7 +579,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #060606 !important;
+  background-color: #0e0d0d !important;
 }
 
 /* .teal {
